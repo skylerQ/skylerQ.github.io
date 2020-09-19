@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://skylerQ.github.io</id>
     <title>黑喵码字中</title>
-    <updated>2020-09-19T16:01:28.787Z</updated>
+    <updated>2020-09-19T16:07:31.371Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://skylerQ.github.io"/>
     <link rel="self" href="https://skylerQ.github.io/atom.xml"/>
@@ -10,6 +10,43 @@
     <logo>https://skylerQ.github.io/images/avatar.png</logo>
     <icon>https://skylerQ.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 黑喵码字中</rights>
+    <entry>
+        <title type="html"><![CDATA[MarkDown记笔记规则]]></title>
+        <id>https://skylerQ.github.io/post/markdown-ji-bi-ji-gui-ze/</id>
+        <link href="https://skylerQ.github.io/post/markdown-ji-bi-ji-gui-ze/">
+        </link>
+        <updated>2020-09-19T16:05:58.000Z</updated>
+        <content type="html"><![CDATA[<p>一般的笔记软件,例如简书,是有两种模式的,一种是富文本编辑器,在菜单栏会有一些小按钮,可以方便的直接点击操作,但是对于程序媛来说需要写代码的地方很多,显然富文本编辑器就不再满足我们的要求了.这个时候就需要学习一下不需要鼠标就能操作的MarkDown编辑器.</p>
+<p>①首先是字号大小, 就相当于html标签中的<h1><h2>标签, 是用井号键来标注的,在你需要设置大小的文字前面加上&quot;#&quot;, 就可以看到字体变大了,&quot;##&quot;表示更小的字体,&quot;######&quot;就和默认字号一样大了.<br>
+还有一种设置大小的方法就是设置一阶标题和二阶标题, 使用方法是在写好的文字换行之后输入独占一行的&quot;=&quot;(一阶标题,字体大), 或者是&quot;-&quot;(二阶标题,字体小) ;</p>
+<p>②其次是字体样式 , 斜体在需要设置的文字外面包裹&quot;<em>&quot; , 示例: <em>这是斜体</em><br>
+粗体在需要设置的文字外面包裹&quot;<strong>&quot; , 示例: <strong>这是粗体</strong><br>
+粗斜体在需要设置的文字外面包裹&quot;</strong></em>&quot; , 示例: <em><strong>这是粗斜体</strong></em></p>
+<p>③插入链接和图片 , 需要使用<a href="%E9%9C%80%E8%A6%81%E8%B7%B3%E8%BD%AC%E7%9A%84%E9%93%BE%E6%8E%A5">需要展示的文字</a>, 示例: <a href="baidu.com">百度一下</a> , 如果只需要链接就直接用<a href="http://baidu.com">http://baidu.com</a><br>
+插入图片: <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1473141813,182643045&amp;fm=26&amp;gp=0.jpg" alt="这是花" loading="lazy"></p>
+<p>④脚注, 待解释<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>,会在文末显示,无论这个er是什么内容,编译之后都默认为有序排列</p>
+<p>⑤引用段落,在需要的文字前面加上 &gt; (大于号) , 可以多层嵌套使用 , 多个大于号表示更内层的嵌套 .</p>
+<p>⑥代码块 , 用一个模板字符串包裹起来即可 , 一个或者三个是一样的效果<br>
+<code>&lt;div class=&quot;wrap&quot;&gt;&lt;/div&gt;</code><br>
+代码区块: 连打4个空格(或者是按一下tab键)就可以建立一个代码区块</p>
+<p>⑦分割线 *-_  或者是 *** 或者是 ___ 或者是 ---</p>
+<p>⑧删除线:  前后各加上~~包裹就可以达到删除线的效果, <s>不想长大</s></p>
+<p>⑨无序列表和有序列表: 无序列表: 在文字前面加入*-+其中之一即可<br>
+有序列表直接数字.即可 , 在前面加空格就可以形成嵌套结构</p>
+<p>⑩表格,这部分比较复杂可以直接复制</p>
+<p>排版: 换行: 两个空格+一个回车是换行<br>
+在段落前做缩进 ,    缩进两个字符<br>
+ 缩进一个字符<br>
+想让文字和图片居中 <div align = center> 哈哈哈 </div></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>111 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[测试博客文]]></title>
         <id>https://skylerQ.github.io/post/ce-shi-bo-ke-wen/</id>
